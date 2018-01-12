@@ -1,0 +1,42 @@
+.sepeken_form {
+        position: relative;
+        float: left;
+        width: 500px;
+}
+.sepeken_td_header {
+        position: relative;
+        width: 99%;
+        font-weight: normal;
+        padding: 3px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.sepeken_td {
+        position: relative;
+        width: 99%;    
+        padding: 3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.sepeken_td input[type="text"] {
+	position: relative;
+	width: 100%;
+}
+
+.sepeken_td textarea {
+	position: relative;
+	width: 100%;
+}
+
+@media (max-width: 480px) {
+	.sepeken_form {
+		width: 100% !important;
+	}
+	.sepeken_td_header {
+                width: 100% !important;
+        }
+	.sepeken_td {
+                width: 100% !important;
+        }
+}
